@@ -87,6 +87,8 @@ function playGame() {
 
         console.log(`wins: ${playerScore}, losses: ${computerScore}, ties: ${ties}`);
 
+        
+
         if (playerScore >= 5 || computerScore >= 5) {
             winner = true;
         }
