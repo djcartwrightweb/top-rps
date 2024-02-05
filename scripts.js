@@ -93,15 +93,9 @@ function playGame() {
             winner = true;
         }
 
-    } while(!winner)
+    } while(winner)
 
 }
 
 
 playGame();
-
-//***  tests  ***//
-// const playerSelection = 'paper';
-//console.log(playRound(playerSelection, getComputerchoice()));
-
-
