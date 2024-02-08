@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <!--<script src="./scripts.js" defer></script>-->
+    <script src="./scripts.js" defer></script>
 
     <title>TOP - Rock, Paper, Scissors</title>
 </head>
@@ -14,17 +14,24 @@
     </header>
     <div id="content">
 
+        <div id="rules">
+            first to five wins!
+        </div>
+
         <div id="score-board">
-            <div id="wins">Wins: 0</div>
-            <div id="losses">Losses: 0</div>
+            <div>Wins: <strong id="wins">0</strong></div>
+            <div>Losses: <strong id="losses">0</strong></div>
         </div>
 
         <div id="game-board">
             <button id="rock">Rock</button>
             <button id="paper">Paper</button>
-            <button id="paper">Scissors</button>
+            <button id="scissors">Scissors</button>
         </div>
         
+        <div id="announcer">
+            Please click a button to begin...
+        </div>
     </div>
     <footer>
         <p>Created by <a href="mailto:dj.cartwright.web@gmail.com">DJ Cartwright</a></p>
